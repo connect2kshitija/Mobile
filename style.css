@@ -1,0 +1,58 @@
+.navbar{
+    display: flex;
+    position: sticky;
+    background-color: black;
+}
+.nav-list{
+     /* background-color: black;*/
+      width: 50%;
+      display:flex;
+      text-align: center;
+}
+.nav-list li{
+      list-style: none;
+}
+.nav-list li a{
+      text-decoration: none;
+      color: rgb(235, 232, 232);
+      padding: 20px;
+      font-size: 27px;
+     border-radius:5px;
+     
+
+}
+.nav-list li a:hover{
+      color: rgb(196, 25, 25);
+      cursor: pointer;
+}
+.right-nav{
+ /*  background-color: black;*/
+   width: 50%;
+   text-align: right;
+   padding: 0px 23px;
+   
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border:2px solid rgb(8, 8, 8);
+    border-radius: 10px;
+}
+#image{
+      display: block;
+      transform: 0.3s;
+      margin: auto;
+      width:800px ;
+}
+.redmi{
+      display: block;
+      margin: auto;
+      width: 450px;
+      height: 500px;
+}
+.one{
+      display: block;
+      margin: auto;
+      width: 500px;
+      height: 500px;  
+}
